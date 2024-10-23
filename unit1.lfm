@@ -1,0 +1,80 @@
+object Form1: TForm1
+  Left = 254
+  Height = 512
+  Top = 81
+  Width = 888
+  Caption = 'Form1'
+  ClientHeight = 512
+  ClientWidth = 888
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  LCLVersion = '3.4.0.0'
+  object btnColorWall: TButton
+    Left = 24
+    Height = 25
+    Top = 448
+    Width = 112
+    Caption = 'btnColorWall'
+    TabOrder = 0
+    OnClick = btnColorWallClick
+  end
+  object btnColorRoof: TButton
+    Left = 144
+    Height = 25
+    Top = 448
+    Width = 112
+    Caption = 'btnColorRoof'
+    TabOrder = 1
+    OnClick = btnColorRoofClick
+  end
+  object btnColorDoor: TButton
+    Left = 264
+    Height = 25
+    Top = 448
+    Width = 112
+    Caption = 'btnColorDoor'
+    TabOrder = 2
+    OnClick = btnColorDoorClick
+  end
+  object btnColorWindow: TButton
+    Left = 384
+    Height = 25
+    Top = 448
+    Width = 112
+    Caption = 'btnColorWindow'
+    TabOrder = 3
+    OnClick = btnColorWindowClick
+  end
+  object btnTranslate: TButton
+    Left = 760
+    Height = 25
+    Top = 448
+    Width = 112
+    Caption = 'btnTranslate'
+    TabOrder = 4
+    OnClick = btnTranslateClick
+  end
+  object btnScaleDown: TButton
+    Left = 632
+    Height = 25
+    Top = 448
+    Width = 115
+    Caption = 'btnScaleDown'
+    TabOrder = 5
+    OnClick = btnScaleDownClick
+  end
+  object btnScaleUp: TButton
+    Left = 504
+    Height = 25
+    Top = 448
+    Width = 115
+    Caption = 'btnScaleUp'
+    TabOrder = 6
+    OnClick = btnScaleUpClick
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 720
+    Top = 392
+  end
+end
